@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".YamateServer">
+    <item android:title="@string/spotify_log_in"
+        android:id="@+id/spotify_log_in"
+        android:icon="@drawable/ic_spotify"/>
+    <item android:title="@string/enable_background_service" android:id="@+id/enable_background_service" android:checkable="true"></item>
+    <item android:title="Quit" android:id="@+id/quit"></item>
+</menu>
