@@ -155,7 +155,7 @@ public class YamateService extends Service implements ConnectionStateCallback, P
     }
 
     class BusHandler extends Handler {
-        private static final String SERVICE_NAME = "com.ubnt.sleepdroid.server";
+        private static final String SERVICE_NAME = "com.mojo.Yamate.server";
         private static final short CONTACT_PORT = 42;
 
         private BusAttachment mBus;

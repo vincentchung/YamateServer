@@ -4,7 +4,7 @@ import org.alljoyn.bus.BusException;
 import org.alljoyn.bus.annotation.BusInterface;
 import org.alljoyn.bus.annotation.BusMethod;
 
-@BusInterface(name = "com.ubnt.sleepdroid.server.SpotifyInterface")
+@BusInterface(name = "com.mojo.Yamate.server.SpotifyInterface")
 public interface SpotifyInterface {
 
     @BusMethod
